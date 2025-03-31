@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboad.css">
+</head>
+<body>
+    <nav>
+      <div class="container">
+        <img src="../IMAGES/PHOTO-2024-11-11-23-52-15-2.jpg" alt="logo">
+
+         <ul class="mobileicon">
+        
+            <li class="Navlink"><a href="index.html">HOME</a></li>
+            <li class="Navlink"><a href="TodoList.html">SPORT</a></li>
+            <li class="Navlink"><a href="homepagecss.html">BUSINESS</a></li>
+            <li class="Navlink"><a href="TodoList.html">ENTERTAINMENT</a></li>
+            <li class="Navlink"><a href="TodoList.html">BUSINESS</a></li>
+            <li class="Navlink"><a href="TodoList.html">POLITICS</a></li>
+            <li class="Navlink"><a href="LoginPage.html">LOGIN</a></li>
+            <li onclick="showSidebar()" class="hideonMobile"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+      </div>    
+        </ul>
+   
+    
+        <ul class="sidebar">
+            <li onclick=hidesidebar()>             
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </a></li>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="RegForm.html">Products</a></li>
+            <li><a href="TodoList.html">About</a></li>
+            <li><a href="homepagecss.html">Forum</a></li>
+            <li><a href="LoginPage.html">Login</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        <div class="page-wrapper">
+            <div class="post-slider">
+            
+                <h1 class="slider-tittle">Current News</h1>
+
+                <div class="post-wrapper">
+                    <div class="post">
+                        <img src="../IMAGES/profilepic.jpg" alt="" class="hilary">
+                            <h4 class="hilary-info"><a href="#">My Name is Hilary and i'm the fastest man alive and i live in abuja nigeria </a></h4>
+                            March 27, 2025.
+                    </div>
+                    <div class="post">
+                            <img src="../IMAGES/Naruto.JPG" alt="" class="naruto">
+                                <h4 class="hilary-info"><a href="#">New Naruto Episode released, download here </a></h4>
+                                March 28, 2025.
+                    </div> 
+                    <div class="post">
+                        <img src="../IMAGES/SPIDERMAN.JPG" alt="" class="spiderman">
+                        <h4 class="hilary-info"><a href="#">New SPIDERMAN Season released, download here </a></h4>
+                            March 28, 2025.
+                   </div> 
+                </div>
+               
+            </div>
+
+        </div>
+        <p>A highly committed, consistent and resilient individual who is ready to work with staff and facilities, contributing the best of my ability and quota in order to improve organizational objectives, achieve managerial goals and thereby, attaining a higher level of professional career and personal development.
+            A highly committed, consistent and resilient individual who is ready to work with staff and facilities, contributing the best of my ability and quota in order to improve organizational objectives, achieve managerial goals and thereby, attaining a higher level of professional career and personal development.A highly committed, consistent and resilient individual who is ready to work with staff and facilities, contributing the best of my ability and quota in order to improve organizational objectives, achieve managerial goals and thereby, attaining a higher level of professional career and personal development.A highly committed, consistent and resilient individual who is ready to work with staff and facilities, contributing the best of my ability and quota in order to improve organizational objectives, achieve managerial goals and thereby, attaining a higher level of professional career and personal development.A highly committed, consistent and resilient individual who is ready to work with staff and facilities, contributing the best of my ability and quota in order to improve organizational objectives, achieve managerial goals and thereby, attaining a higher level of professional career and personal development.
+        </p>
+    </main>
+    <footer class="footercontainer">
+        <img src="../IMAGES/PHOTO-2024-11-11-23-52-15-2.jpg" alt="logo">
+       <div> No.2, coscharis Street, Kirikiri Industrial layout, Apapa, Lagos.</div>
+    </footer>
+</body>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'    
+    }
+    function hidesidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+        
+   </script>
+</html>

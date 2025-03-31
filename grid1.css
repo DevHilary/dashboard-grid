@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 'menu header header header header header'
+    'menu stat1 stat1 stat1 stat2 stat2'
+    'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: dodgerblue;
+    padding:  10px;
+}
+
+.grid-container > div {
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.item1 {grid-area: header;}
+.item2 {grid-area: menu;}
+.item3 {grid-area: stat1}
+.item4 {grid-area: stat2;}
+.item5 {grid-area: footer;}
